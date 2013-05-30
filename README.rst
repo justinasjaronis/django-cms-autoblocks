@@ -6,8 +6,9 @@ Django-cms-autoblocks is an app that allows you to place arbitrary content block
 Installation
 =====================
 
-``pip install autoblocks``
-``pip install git+git@github.com:Strathcom/django-cms-autoblocks.git``
+From PyPi: ``pip install autoblocks``
+
+From GitHub: ``pip install git+git@github.com:Strathcom/django-cms-autoblocks.git``
 
 Setup
 =====================
