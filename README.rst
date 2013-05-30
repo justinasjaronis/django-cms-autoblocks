@@ -33,7 +33,7 @@ The templatetag will generate an Autoblock with a placeholder field for you to w
 Extras
 =====================
 
-If you add ``django.core.context_processors.request`` to TEMPLATE_CONTEXT_PROCESSORS, autoblocks will only be created when the page is accessed by an authenticated user with the ``autoblocks.add_autoblock`` permission.
+If you add ``django.core.context_processors.request`` to ``settings.TEMPLATE_CONTEXT_PROCESSORS``, autoblocks will only be created when the page is accessed by an authenticated user with the ``autoblocks.add_autoblock`` permission.
 
 
 
