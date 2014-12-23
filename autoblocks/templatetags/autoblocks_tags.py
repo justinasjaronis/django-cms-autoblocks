@@ -50,6 +50,7 @@ class AutoblockNode(template.Node):
                 return ''
             else:
                 return autoblock.content.render(context, None)
+        return ''
 
 
 def do_autoblock(parser, token):
